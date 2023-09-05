@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: teal;
+}
+
+header h1 {
+  padding-left: 20px;
+  color: white;
+}
+
+body {
+  border: 1px solid black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+#banner {
+  min-height: 400px;
+  background-image: url("../images/banner.jpg");
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#banner h2 {
+  background-color: teal;
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+button {
+  align-content: center;
+  border: 1px solid black;
+  background-color: teal;
+  max-height: 50px;
+}
+
+#about {
+  min-height: 20vh;
+  border: 1px solid black;
+  background-color: teal;
+  text-align: left;
+}
+
+#work {
+  min-height: 20vh;
+  border: 1px solid black;
+  background-color: white;
+  text-align: left;
+}
+
+#contact {
+  min-height: 20vh;
+  border: 1px solid black;
+  background-color: teal;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+  padding-left: 10px;
+}
+
+#work h2 {
+  color: teal;
+  padding-left: 10px;
+}
