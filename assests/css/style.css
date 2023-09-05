@@ -45,22 +45,122 @@ nav a {
 }
 
 button {
-    background-color: white;
-    border-radius: 20px;
-    border-width: 0;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    margin: 5px;
-    padding: 10px 12px;
-    text-align: center;
-    vertical-align: baseline;
-    touch-action: manipulation;
-  }
+  background-color: darkgray;
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 5px;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  touch-action: manipulation;
+}
+
+button2 {
+  background-image: url("../images/button2.jpg");
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 5px;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  touch-action: manipulation;
+  max-width: 500px;
+  min-width: 500px;
+}
+
+button3 {
+  background-image: url("../images/button3.jpg");
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 5px;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  touch-action: manipulation;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+button4 {
+  background-image: url(../images/button4.jpg);
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 5px;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  touch-action: manipulation;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+button5 {
+  background-image: url(../images/button5.jpg);
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 5px;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  touch-action: manipulation;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+button6 {
+  background-image: url(../images/button6.jpg);
+  border-radius: 20px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 5px;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: baseline;
+  touch-action: manipulation;
+  max-width: 300px;
+  min-width: 300px;
+}
 
 #about {
   display: flex;
@@ -73,7 +173,7 @@ button {
 
 #work {
   display: flex;
-  justify-content: flex-end
+  flex-wrap: nowrap;
   border: 1px solid black;
   background-color: white;
   text-align: left;
