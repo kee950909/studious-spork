@@ -1,10 +1,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: teal;
+  background-color: rgba(0, 128, 128, 0.8);
   padding: 10px;
 }
 
@@ -14,9 +12,7 @@ header h1 {
 }
 
 body {
-  border: 1px solid black;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -30,166 +26,90 @@ nav a {
 }
 
 #banner {
-  min-height: 400px;
-  background-image: url("../images/banner.jpg");
+  min-height: 274px;
+  background-image: url("../images/banner.png");
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 #banner h2 {
-  background-color: teal;
+  background-color: rgba(0, 128, 128, 0.8);
   color: white;
-  padding: 20px;
-  border: 1px solid black;
+  min-width: 600px;
+  font-weight: normal;
 }
 
 button {
-  background-color: darkgray;
+  background-color: white;
   border-radius: 20px;
-  border-width: 0;
-  color: white;
   cursor: pointer;
   display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 5px;
   padding: 10px 12px;
   text-align: center;
   vertical-align: baseline;
   touch-action: manipulation;
 }
 
-button2 {
+#button2 {
   background-image: url("../images/button2.jpg");
-  border-radius: 20px;
-  border-width: 0;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 5px;
-  padding: 10px 12px;
-  text-align: center;
-  vertical-align: baseline;
-  touch-action: manipulation;
-  max-width: 500px;
-  min-width: 500px;
+  width: 95%;
+  height: 600px;
 }
 
-button3 {
+#button3 {
   background-image: url("../images/button3.jpg");
-  border-radius: 20px;
-  border-width: 0;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 5px;
-  padding: 10px 12px;
-  text-align: center;
-  vertical-align: baseline;
-  touch-action: manipulation;
-  max-width: 300px;
-  min-width: 300px;
+  width: 45%;
+  height: 300px;
 }
 
-button4 {
+#button4 {
   background-image: url(../images/button4.jpg);
-  border-radius: 20px;
-  border-width: 0;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 5px;
-  padding: 10px 12px;
-  text-align: center;
-  vertical-align: baseline;
-  touch-action: manipulation;
-  max-width: 300px;
-  min-width: 300px;
+  width: 45%;
+  height: 300px;
 }
 
-button5 {
+#button5 {
   background-image: url(../images/button5.jpg);
-  border-radius: 20px;
-  border-width: 0;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 5px;
-  padding: 10px 12px;
-  text-align: center;
-  vertical-align: baseline;
-  touch-action: manipulation;
-  max-width: 300px;
-  min-width: 300px;
+  width:  45%;
+  height: 300px;
 }
 
-button6 {
+#button6 {
   background-image: url(../images/button6.jpg);
-  border-radius: 20px;
-  border-width: 0;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 5px;
-  padding: 10px 12px;
-  text-align: center;
-  vertical-align: baseline;
-  touch-action: manipulation;
-  max-width: 300px;
-  min-width: 300px;
+  width:  45%;
+  height: 300px;
 }
 
 #about {
   display: flex;
-  justify-content: flex-end
-  border: 1px solid black;
-  background-color: teal;
+  justify-content: flex-end;
+  background-color: rgba(0, 128, 128, 0.8);
   text-align: left;
-  min-height: 200px;
 }
 
 #work {
   display: flex;
-  flex-wrap: nowrap;
-  border: 1px solid black;
   background-color: white;
-  text-align: left;
-  min-height: 200px;
+  width: 100%;
 }
 
 #contact {
   display: flex;
-  justify-content: flex-end
-  border: 1px solid black;
+  justify-content: space-between;
+  text-align: center;
   background-color: teal;
-  text-align: left;
-  min-height: 80px;
+  padding: 10px;
 }
 
-#about h2 , #contact h2 {
+#contactnav {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+#about h2,
+#contact h2 {
   color: white;
   padding-left: 10px;
   padding-right: 30px;
@@ -197,13 +117,47 @@ button6 {
 
 #work h2 {
   color: teal;
-  padding-left: 10px;
+  width: 20%;
 }
 
 #about h4 {
   color: white;
+  font-weight: normal;
 }
 
 #contact h4 {
-  color: teal;
+  color: rgba(0, 128, 128, 0.8);
+}
+
+#work h4 {
+  color: white;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+a {
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  background-color: rgba(128, 128, 128, 0.479);
+}
+
+#workbuttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  padding: 50px; 
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.project:hover {
+opacity: 0.7;
 }
