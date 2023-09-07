@@ -44,7 +44,7 @@ Project is created with:
 
 ## Screenshot
 
-Studious-spork/assests/images/Screenshot.png
+![Screenshot](https://github.com/kee950909/studious-spork/assets/142914123/bde6a18a-bff3-40a9-9bd3-81f932e760eb)
 
 ## Deployment
 
