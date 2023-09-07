@@ -34,7 +34,7 @@ Deployed link:
 
 Landing page
 
-![Image](assets/landingpage.png)
+<a href="/assests/images/Screenshot.png>
 
 ## Technologies
 
@@ -60,15 +60,19 @@ Download the repository
 
 ## Code Overview
 
-- Basic overview
+- HTML semantics, or as close as I could manage, were maintained. I tried very hard to keep the HTML as simple and organized as possible. Admittedly, there might be a few ineffeciencies within it.
+- Java Script was only connected for practice as we are just beginning to learn this in the course.
+- Wireframe'd the mockup and structured everything off of that. I see that ahead in the course we will have the opportunity to rework our portfolio's so for this attempt, I tried to keep the code as straightforward and true to specs as possible.
+- Responsiveness: As hard as I tried, I was unable to make the page 100% responsive, particularly to screen sixes common on smaller devices. The addition of media query may be able to resolve this. However, I was not able to get a querie to work without breaking the code. In the future, my effort will be spent on first creating the code to display on the smallest possible viewport, which I believe will make the responsiveness issue much less of an issue on larger devices.
+- For the links to deployed applications; at this point, I do not have any deployed applications. Instead, I linked the buttons in my work section to public github repositories I created. Some with homework assingments, others empty.
 
 ## Summary
 
-- This project is a mock-CRM for a start-up/small brewery company.
+- The portfolio correctly responds to all the prompts in the user story as closely as possible.
 
 ## CSS style
 
-- This part we explain the CSS style
+- Inefficiencies in CSS style are definitely present. However, this was personally a huge step up from anything I have attempted before in the platform and as I styled, I was able to eliminate a good deal of redundancies. The CSS Style, while not perfect, represents a large step forward in my personal ability.
 
 ## Authors
 
