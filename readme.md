@@ -6,13 +6,17 @@
 
 - [General info](#General-Info)
 - [Technologies](#Technologies)
-- [Screenshot] (#Screenshot)
+- [Screenshot](#Screenshot)
 - [Deployment](#Deployment)
 - [Code Overview](#Code-Overview)
 - [Summary](#Summary)
 - [CSS style](#CSS-style)
 
 ## General-Info
+
+Deployed link: https://studious-spork.github.io/
+
+Public Github Repo: https://github.com/kee950909/studious-spork
 
 ACCEPTANCE CRITERIA
 
@@ -30,12 +34,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-Deployed link:
-
-Landing page
-
-<a href="/assests/images/Screenshot.png>
-
 ## Technologies
 
 Project is created with:
@@ -46,7 +44,7 @@ Project is created with:
 
 ## Screenshot
 
-(insert screenshot here)
+Studious-spork/assests/images/Screenshot.png
 
 ## Deployment
 
